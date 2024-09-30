@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  /* background-color: whitesmoke; */
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(135deg, #e9e8f0, #d0dadc); */
+  background-color: rgb(229, 238, 231);
+}
+
+div {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(231, 21, 147);
+  position: relative;
+  top: 2px;
+  margin: 0%;
+  left: 0px;
+  right: 0px;
+  bottom: 2px;
+  height: 50px;
+  width: 100%;
+  box-shadow: 5px 5px 5px 5px rgb(238, 126, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  position: absolute;
+  padding: 10px;
+  left: 80vw;
+  top: 2px;
+  bottom: 2px;
+  margin: 10px;
+  right: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 200px;
+}
+
+.textbox > input {
+  position: absolute;
+  padding: 10px;
+  left: 65vw;
+  top: 3px;
+  bottom: 2px;
+  margin: 12px;
+  right: 100vw;
+  border: 1px solid black;
+
+  width: 140px;
+  border-radius: 10px;
+}
+
+.textbox > input:focus {
+  background-color: rgb(238, 242, 243);
+}
+
+.nav > a {
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(14, 14, 16);
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.nav > a:hover {
+  background-color: blueviolet;
+}
+
+.nav > a:active {
+  background-color: rgb(22, 194, 229);
+}
+
+.aside {
+  background-color: rgb(220, 233, 223);
+  height: 150vh;
+  width: 20vw;
+  box-shadow: 5px 5px 5px 5px rgb(165, 164, 164);
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  /* white-space: wrapping; */
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img img {
+  width: 80%; /* Make the image responsive */
+  height: 200px; /* Set a fixed height for all images */
+  /* Ensure the image covers the area without stretching */
+  max-width: 300px; /* Set a maximum width if needed */
+  margin: 10px 0; /* Spacing between images */
+  display: inline-block;
+}
+
+main {
+  height: 90vh;
+  position: absolute;
+  left: 21vw;
+  margin: 15px;
+  padding: 10px;
+  margin-top: 2px;
+  display: inline-block;
+  line-height: 1.6;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(231, 21, 147);
+  position: relative;
+  top: 2px;
+  bottom: 0px;
+  height: 50px;
+  width: 100vw;
+  box-shadow: 5px 5px 5px 5px rgb(238, 126, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
